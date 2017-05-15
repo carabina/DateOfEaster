@@ -26,7 +26,6 @@ fileprivate extension Date {
         // Anonymous Gregorian Algorithm
         // https://en.wikipedia.org/wiki/Computus#Anonymous_Gregorian_algorithm
 
-
         /// Calculate Western Easter Date Components using Gregorian Algorithm
         let westernEasterComponents: DateComponents = {
             let a = year % 19
