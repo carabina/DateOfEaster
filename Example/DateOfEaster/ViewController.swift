@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print(Date.easternOrthodoxEasterDate(year: 2017))
+        print(Date.easternEasterDate(year: 2022))
+        print(Date.westernEasterDate(year: 2022))
     }
 
     override func didReceiveMemoryWarning() {
