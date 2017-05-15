@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5037AA21ECA375E00C9523C /* Date+DateOfEaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5037AA11ECA375E00C9523C /* Date+DateOfEaster.swift */; };
+		F5037AA31ECA375E00C9523C /* Date+DateOfEaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5037AA11ECA375E00C9523C /* Date+DateOfEaster.swift */; };
 		F5C9C2511ECA34D20018CEA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9C2501ECA34D20018CEA3 /* AppDelegate.swift */; };
 		F5C9C2531ECA34D20018CEA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9C2521ECA34D20018CEA3 /* ViewController.swift */; };
 		F5C9C2561ECA34D20018CEA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C9C2541ECA34D20018CEA3 /* Main.storyboard */; };
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5037AA11ECA375E00C9523C /* Date+DateOfEaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+DateOfEaster.swift"; sourceTree = "<group>"; };
 		F5C9C24D1ECA34D20018CEA3 /* DateOfEaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateOfEaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C9C2501ECA34D20018CEA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5C9C2521ECA34D20018CEA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,9 +59,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F5037AA01ECA36F800C9523C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F5037AA11ECA375E00C9523C /* Date+DateOfEaster.swift */,
+			);
+			name = Sources;
+			path = ../Sources;
+			sourceTree = "<group>";
+		};
 		F5C9C2441ECA34D20018CEA3 = {
 			isa = PBXGroup;
 			children = (
+				F5037AA01ECA36F800C9523C /* Sources */,
 				F5C9C24F1ECA34D20018CEA3 /* DateOfEaster */,
 				F5C9C2641ECA34D20018CEA3 /* DateOfEasterTests */,
 				F5C9C24E1ECA34D20018CEA3 /* Products */,
@@ -202,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5C9C2531ECA34D20018CEA3 /* ViewController.swift in Sources */,
+				F5037AA21ECA375E00C9523C /* Date+DateOfEaster.swift in Sources */,
 				F5C9C2511ECA34D20018CEA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5037AA31ECA375E00C9523C /* Date+DateOfEaster.swift in Sources */,
 				F5C9C2661ECA34D20018CEA3 /* DateOfEasterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +427,7 @@
 				F5C9C26C1ECA34D20018CEA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5C9C26D1ECA34D20018CEA3 /* Build configuration list for PBXNativeTarget "DateOfEasterTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +436,7 @@
 				F5C9C26F1ECA34D20018CEA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
