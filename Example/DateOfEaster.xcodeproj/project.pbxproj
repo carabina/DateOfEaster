@@ -37,6 +37,8 @@
 		30C38A3CA7716121161CDF49 /* Pods-DateOfEaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateOfEaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DateOfEaster/Pods-DateOfEaster.debug.xcconfig"; sourceTree = "<group>"; };
 		BC6DAE5BD3EF65789B59FC2A /* Pods-DateOfEasterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateOfEasterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DateOfEasterTests/Pods-DateOfEasterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F5037AA11ECA375E00C9523C /* Date+DateOfEaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+DateOfEaster.swift"; sourceTree = "<group>"; };
+		F5037AA61ECA5D0F00C9523C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F5037AA71ECA5D0F00C9523C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F5C9C24D1ECA34D20018CEA3 /* DateOfEaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateOfEaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C9C2501ECA34D20018CEA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5C9C2521ECA34D20018CEA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,9 +100,20 @@
 			path = ../Sources;
 			sourceTree = "<group>";
 		};
+		F5037AA51ECA5CF000C9523C /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				F5037AA61ECA5D0F00C9523C /* LICENSE */,
+				F5037AA71ECA5D0F00C9523C /* README.md */,
+			);
+			name = Metadata;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		F5C9C2441ECA34D20018CEA3 = {
 			isa = PBXGroup;
 			children = (
+				F5037AA51ECA5CF000C9523C /* Metadata */,
 				F5037AA01ECA36F800C9523C /* Sources */,
 				F5C9C24F1ECA34D20018CEA3 /* DateOfEaster */,
 				F5C9C2641ECA34D20018CEA3 /* DateOfEasterTests */,
