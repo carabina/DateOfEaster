@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name        = "DateOfEaster"
-  s.version     = "0.1"
+  s.version     = "0.1.1"
   s.summary     = "Date class extension for calcutation of Easter dates"
   s.description = <<-DESC
                   **DateOfEaster** is an extension for the _Date_ class, used for calcutation of Easter date,
