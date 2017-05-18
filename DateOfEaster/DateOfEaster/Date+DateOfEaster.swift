@@ -7,11 +7,33 @@
 
 import Foundation
 
+// MARK: - Date+DateOfEaster
 extension Date {
+
+    /// Get eastern Easter date for a given year
+    ///
+    /// The year must be between 1900 and 2099
+    ///
+    /// Example:
+    ///     let date = Date.easternEasterDate(year: 2017)
+    ///
+    /// - Parameter year: Int - Year to find Easter date for
+    ///
+    /// - Returns: Date? - Easter date for a given year or nil if the date cannot be calculated
     public static func easternEasterDate(year: Int) -> Date? {
         return easternEasterDate(for: year)
     }
 
+    /// Get western Easter date for a given year
+    ///
+    /// The year must be 1589 or later
+    ///
+    /// Example:
+    ///     let date = Date.westernEasterDate(year: 2017)
+    ///
+    /// - Parameter year: Int - Year to find Easter date for
+    ///
+    /// - Returns: Date? - Easter date for a given year or nil if the date cannot be calculated
     public static func westernEasterDate(year: Int) -> Date? {
         return westernEaster(for: year)
     }
@@ -20,10 +42,10 @@ extension Date {
 // MARK: - Private functions
 fileprivate extension Date {
     static func westernEaster(for year: Int) -> Date? {
-
+        // Before 1583 there was no Gregorian calendar.
         guard year >= 1583 else { return nil }
 
-        // Anonymous Gregorian Algorithm
+        // Using Gregorian Algorithm
         // https://en.wikipedia.org/wiki/Computus#Anonymous_Gregorian_algorithm
 
         /// Calculate Western Easter Date Components using Gregorian Algorithm
@@ -58,7 +80,11 @@ fileprivate extension Date {
     }
 
     static func easternEasterDate(for year: Int) -> Date? {
+        // The difference between Julian and Gregorian calendars is different before 1900 and after 2100.
         guard (1900...2099).contains(year) else { return nil }
+
+        // Using Meeus Algorithm
+        // https://en.wikipedia.org/wiki/Computus#Meeus.27_Julian_algorithm
 
         /// Calculate Eastern Easter Date Components using Meeus Algorithm
         let easternEasterComponents: DateComponents = {
