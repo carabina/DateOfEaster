@@ -7,4 +7,3 @@ if let unwrappedWestern = easter1983west,
     let unwrappedEastern = easter1983east {
     let difference = unwrappedEastern.timeIntervalSince(unwrappedWestern)
 }
-

@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		989F8BF317446F11C2C60394 /* Pods_DateOfEaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E6F81D2590C374BE3786F9 /* Pods_DateOfEaster.framework */; };
 		F50235951ECCDE0900606791 /* DateOfEaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F502358B1ECCDE0900606791 /* DateOfEaster.framework */; };
 		F502359A1ECCDE0900606791 /* DateOfEasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50235991ECCDE0900606791 /* DateOfEasterTests.swift */; };
 		F502359C1ECCDE0900606791 /* DateOfEaster.h in Headers */ = {isa = PBXBuildFile; fileRef = F502358E1ECCDE0900606791 /* DateOfEaster.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F50235A51ECCDE4100606791 /* Date+DateOfEaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50235A41ECCDE4100606791 /* Date+DateOfEaster.swift */; };
 		F50235A61ECCDE4100606791 /* Date+DateOfEaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50235A41ECCDE4100606791 /* Date+DateOfEaster.swift */; };
+		F94F695586FE4AE2A5D722FC /* Pods_DateOfEasterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5589A8C7FA6942220B2CA0F1 /* Pods_DateOfEasterTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38E6F81D2590C374BE3786F9 /* Pods_DateOfEaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DateOfEaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C7C3D825F3410AAFE3F673 /* Pods-DateOfEasterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateOfEasterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DateOfEasterTests/Pods-DateOfEasterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5589A8C7FA6942220B2CA0F1 /* Pods_DateOfEasterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DateOfEasterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91C1F32C3D75DB55B3DE19C /* Pods-DateOfEasterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateOfEasterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DateOfEasterTests/Pods-DateOfEasterTests.release.xcconfig"; sourceTree = "<group>"; };
+		C96EAC167A7631927C28FD9C /* Pods-DateOfEaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateOfEaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DateOfEaster/Pods-DateOfEaster.debug.xcconfig"; sourceTree = "<group>"; };
+		E515B0132A776D743600AF11 /* Pods-DateOfEaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateOfEaster.release.xcconfig"; path = "Pods/Target Support Files/Pods-DateOfEaster/Pods-DateOfEaster.release.xcconfig"; sourceTree = "<group>"; };
 		F502358B1ECCDE0900606791 /* DateOfEaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateOfEaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F502358E1ECCDE0900606791 /* DateOfEaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateOfEaster.h; sourceTree = "<group>"; };
 		F502358F1ECCDE0900606791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989F8BF317446F11C2C60394 /* Pods_DateOfEaster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,12 +57,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				F50235951ECCDE0900606791 /* DateOfEaster.framework in Frameworks */,
+				F94F695586FE4AE2A5D722FC /* Pods_DateOfEasterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B78A5F1AA92A0079BDD85CE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C96EAC167A7631927C28FD9C /* Pods-DateOfEaster.debug.xcconfig */,
+				E515B0132A776D743600AF11 /* Pods-DateOfEaster.release.xcconfig */,
+				43C7C3D825F3410AAFE3F673 /* Pods-DateOfEasterTests.debug.xcconfig */,
+				C91C1F32C3D75DB55B3DE19C /* Pods-DateOfEasterTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B790504817F856971827E400 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38E6F81D2590C374BE3786F9 /* Pods_DateOfEaster.framework */,
+				5589A8C7FA6942220B2CA0F1 /* Pods_DateOfEasterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F502357F1ECCDDF800606791 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +91,8 @@
 				F502358D1ECCDE0900606791 /* DateOfEaster */,
 				F50235981ECCDE0900606791 /* DateOfEasterTests */,
 				F502358C1ECCDE0900606791 /* Products */,
+				B78A5F1AA92A0079BDD85CE7 /* Pods */,
+				B790504817F856971827E400 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,10 +158,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F502359D1ECCDE0900606791 /* Build configuration list for PBXNativeTarget "DateOfEaster" */;
 			buildPhases = (
+				CAD3CA56003A7398F3B261DD /* [CP] Check Pods Manifest.lock */,
 				F50235861ECCDE0900606791 /* Sources */,
 				F50235871ECCDE0900606791 /* Frameworks */,
 				F50235881ECCDE0900606791 /* Headers */,
 				F50235891ECCDE0900606791 /* Resources */,
+				FA0DE74645CCDF9E475A74FB /* [CP] Copy Pods Resources */,
+				F51C24FE1ECDE0F600B0E638 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -144,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F50235A01ECCDE0900606791 /* Build configuration list for PBXNativeTarget "DateOfEasterTests" */;
 			buildPhases = (
+				9A212AEB4CEDBF7E0E913E92 /* [CP] Check Pods Manifest.lock */,
 				F50235901ECCDE0900606791 /* Sources */,
 				F50235911ECCDE0900606791 /* Frameworks */,
 				F50235921ECCDE0900606791 /* Resources */,
+				93D8982898D8F0DAE824F137 /* [CP] Embed Pods Frameworks */,
+				7D0FA78B8EF1F31AAF151DB5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +251,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D0FA78B8EF1F31AAF151DB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DateOfEasterTests/Pods-DateOfEasterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93D8982898D8F0DAE824F137 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DateOfEasterTests/Pods-DateOfEasterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A212AEB4CEDBF7E0E913E92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CAD3CA56003A7398F3B261DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F51C24FE1ECDE0F600B0E638 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint";
+		};
+		FA0DE74645CCDF9E475A74FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DateOfEaster/Pods-DateOfEaster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F50235861ECCDE0900606791 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +388,7 @@
 		};
 		F502359E1ECCDE0900606791 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C96EAC167A7631927C28FD9C /* Pods-DateOfEaster.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -328,6 +459,7 @@
 		};
 		F502359F1ECCDE0900606791 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E515B0132A776D743600AF11 /* Pods-DateOfEaster.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -391,6 +523,7 @@
 		};
 		F50235A11ECCDE0900606791 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C7C3D825F3410AAFE3F673 /* Pods-DateOfEasterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -448,6 +581,7 @@
 		};
 		F50235A21ECCDE0900606791 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C91C1F32C3D75DB55B3DE19C /* Pods-DateOfEasterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
