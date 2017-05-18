@@ -6,7 +6,7 @@
 **Supported platforms:** iOS 9.0+
 
 # Introduction
-**DateOfEaster** is an extension for the _Date_ class, used for calcutation of Easter date, both western _(used by Roman Catholic Church and many protestant and evangelical churches)_ and eastern _(used by most of Eastern Orthodox Churches and Ancient Churches of the East)_.
+**DateOfEaster** is an extension for the `Date` class, used for calcutation of Easter date, both western _(used by Roman Catholic Church and many protestant and evangelical churches)_ and eastern _(used by most of Eastern Orthodox Churches and Ancient Churches of the East)_.
 
 ### A bit of history
 Sometimes I need to find a certain Christian festive day's date. A long ago I created a Ruby gem for this: **[when_easter](https://github.com/Loyolny/when_easter)**. Now I thought to create something like this in Swift.

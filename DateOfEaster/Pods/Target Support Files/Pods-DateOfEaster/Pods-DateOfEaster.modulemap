@@ -1,6 +1,0 @@
-framework module Pods_DateOfEaster {
-  umbrella header "Pods-DateOfEaster-umbrella.h"
-
-  export *
-  module * { export * }
-}
