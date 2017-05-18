@@ -32,7 +32,7 @@ Find an eastern Easter date:
 let easter1983 = Date.easternEasterDate(year: 1983)
 ```
 ### Caveats
-_Date.easternEasterDate_ and _Date.westernEasterDate_ return `Date` optional. Both eastern and western date calcutation are subject to certain limitations:
+`Date.easternEasterDate` and `Date.westernEasterDate` return `Date` optional. Both eastern and western date calcutation are subject to certain limitations:
 * Western date has to be year 1583 or later. There was no Gregorian calendar before.
 * Eastern date has to be between year 1900 and 2099 due to changes between Julian and Gregorian calendars in year 2100.
 Otherwise both functions will return *nil*.
