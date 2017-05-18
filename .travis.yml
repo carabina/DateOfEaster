@@ -1,5 +1,6 @@
 language: objective-c
 osx_image: xcode8.3
+podfile: DateOfEaster/Podfile
 
 env:
   global:
