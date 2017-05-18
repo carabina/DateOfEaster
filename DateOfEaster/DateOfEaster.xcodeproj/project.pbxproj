@@ -40,6 +40,7 @@
 		F50235991ECCDE0900606791 /* DateOfEasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateOfEasterTests.swift; sourceTree = "<group>"; };
 		F502359B1ECCDE0900606791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F50235A41ECCDE4100606791 /* Date+DateOfEaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+DateOfEaster.swift"; sourceTree = "<group>"; };
+		F50235AA1ECD945300606791 /* EasterDate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EasterDate.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 		F502357F1ECCDDF800606791 = {
 			isa = PBXGroup;
 			children = (
+				F50235AA1ECD945300606791 /* EasterDate.playground */,
 				F502358D1ECCDE0900606791 /* DateOfEaster */,
 				F50235981ECCDE0900606791 /* DateOfEasterTests */,
 				F502358C1ECCDE0900606791 /* Products */,
